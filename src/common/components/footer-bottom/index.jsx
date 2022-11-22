@@ -8,6 +8,8 @@ import Twitter from "../../assets/icons/twitter.svg";
 import Youtube from "../../assets/icons/youtube.svg";
 import Instagram from "../../assets/icons/instagram.svg";
 
+
+
 const FooterBottom = () => {
     return (
         <section className='footer-bottom-main'>

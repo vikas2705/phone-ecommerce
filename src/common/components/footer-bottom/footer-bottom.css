@@ -52,3 +52,10 @@
     margin-right: 10px;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 821px) {
+    .footer-bottom-main{
+        padding: 0px;
+    }
+}
