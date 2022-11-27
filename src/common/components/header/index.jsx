@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../logo";
 import "./header.css";
-import cartIcon from "../../assets/icons/cart.svg";
+import CartIcon from "../../assets/icons/cart";
 import userIcon from "../../assets/icons/user.svg";
 import { useNavigate } from "react-router-dom";
 
@@ -18,20 +18,20 @@ const Header = () => {
                 <div className='left-part'>
                     <Logo />
 
-                    <div class='input-group mx-4'>
+                    <div className='input-group mx-4'>
                         <input
                             type='text'
-                            class='form-control custom-width'
+                            className='form-control custom-width'
                             placeholder='Search for  product, brands or more…'
                         />
-                        <span class='input-group-text' id='basic-addon2'>
-                            <i class='bi bi-search'></i>
+                        <span className='input-group-text' id='basic-addon2'>
+                            <i className='bi bi-search'></i>
                         </span>
                     </div>
                 </div>
                 <div className='right-part'>
                     <div className='header-icons'>
-                        <img src={cartIcon} alt='cart icon' />
+                        <CartIcon />
                         <span className='header-text mx-2'>Cart</span>
                     </div>
 
