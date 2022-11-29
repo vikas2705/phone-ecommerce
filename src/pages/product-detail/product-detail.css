@@ -1,15 +1,35 @@
+
 .body-main{
     background: #f5f5f5bf;
     padding: 20px 0;
     min-height: 500px;
+    overflow-wrap: normal
 }
 
 .product-section{
     background: #FFFFFF;
     border-radius: 8px;
     min-height: 300px;
+    width: 105%;
+    margin-left: 39px;
+    padding-right: 47px;
 }
 
 .paddingLeft30{
     padding-left: 30px;
+ }
+ 
+.col-md-2{
+    flex: 0 0 auto;
+    width: 16.66666667%;
+    padding-top: 68px;
+    margin-right: 38px;
 }
+.phone-container{
+    min-height: 400px;
+    max-width: 71%;
+    background: #FEFEFE;
+    border: 2px solid #E9E9E9;
+    padding: 20px;
+    border-radius: 12px;
+} 
